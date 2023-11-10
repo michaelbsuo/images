@@ -2,7 +2,7 @@ import requests
 
 taskId = '06727e30-2a17-421d-9cb9-f3f1ee60742b'
 api_url = f'https://dashscope.aliyuncs.com/api/v1/tasks/{taskId}'
-headers = {'Authorization': f'Bearer sk-785e84cbcf7b44109e5e1e5597f052fb'}
+headers = {'Authorization': f'Bearer xxxxxxxx'}
 response2 = requests.get(api_url, headers=headers)
 print(response2.status_code)
 print(response2.text)
