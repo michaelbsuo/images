@@ -4,7 +4,7 @@ import requests
 api_url = 'https://dashscope.aliyuncs.com/api/v1/services/aigc/image-generation/generation'
 headers = {
     'X-DashScope-Async': 'enable',
-    'Authorization': 'Bearer sk-785e84cbcf7b44109e5e1e5597f052fb',
+    'Authorization': 'Bearer xxxxxxxx',
     'Content-Type': 'application/json'
 }
 
